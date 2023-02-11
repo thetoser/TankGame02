@@ -32,9 +32,9 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
             enemies.add(enemy);
         }
         //初始化图片
-        image1 = Toolkit.getDefaultToolkit().getImage(Panel.class.getResource("/bomb_1.gif"));
-        image2 = Toolkit.getDefaultToolkit().getImage(Panel.class.getResource("/bomb_2.gif"));
-        image3 = Toolkit.getDefaultToolkit().getImage(Panel.class.getResource("/bomb_3.gif"));
+        image1 = Toolkit.getDefaultToolkit().getImage(Panel.class.getResource("/com/zhljava/bomb_1.gif"));
+        image2 = Toolkit.getDefaultToolkit().getImage(Panel.class.getResource("/com/zhljava/bomb_2.gif"));
+        image3 = Toolkit.getDefaultToolkit().getImage(Panel.class.getResource("/com/zhljava/bomb_3.gif"));
     }
 
     @Override
